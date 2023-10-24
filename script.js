@@ -38,5 +38,11 @@ function writeText() {
   const elemTextErsetzen = document.querySelector("#output")
   //elemTextErsetzen.textContent = elemTextSchreiben.value
   elemTextErsetzen.textContent =  elemTextErsetzen.textContent+"\n" + elemTextSchreiben.value
-  
+}
+
+function KekseHinzufügen() {
+  const numberElement = document.querySelector("#Kekse")
+  let num = parseInt(numberElement.textContent)
+  num = num + 1
+  numberElement.textContent = num
 }
