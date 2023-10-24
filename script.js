@@ -34,5 +34,9 @@ function resetCounter() {
 }
 
 function writeText() {
+  const elemTextSchreiben = document.querySelector("#input")
+  const elemTextErsetzen = document.querySelector("#output")
+  //elemTextErsetzen.textContent = elemTextSchreiben.value
+  elemTextErsetzen.textContent =  elemTextErsetzen.textContent+"\n" + elemTextSchreiben.value
   
 }
